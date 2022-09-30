@@ -1,0 +1,32 @@
+{
+  "name": "hardhat-fundme",
+  "author": "Sofien Abidi",
+  "version": "1.0.0",
+  "description": "Basic decentrilsed crowdfunding",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "test:staging": "npx hardhat test --network rinkeby",
+    "run format": "npx prettier --write .",
+    "coverage": "npx hardhat coverage"
+  },
+  "keywords": ["hardhat", "WEB3", "solidity", "ethereum"],
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "dotenv": "^16.0.2",
+    "ethers": "^5.7.1",
+    "hardhat": "^2.11.2",
+    "hardhat-deploy": "^0.11.15",
+    "hardhat-gas-reporter": "^1.0.9",
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.24",
+    "solidity-coverage": "^0.8.2"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.5.0",
+    "@openzeppelin/contracts": "^4.7.3"
+  }
+}
